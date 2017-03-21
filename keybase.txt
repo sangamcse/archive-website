@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/sangamcse
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sangamcse.github.io
+  * I am sangamcse (https://keybase.io/sangamcse) on keybase.
+  * I have a public key with fingerprint 1B2B 9AB2 ED3D 54DB DF4E  4967 E60D 1B1D AE82 306E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120e9d084f655038c37491777f985c5142a3bb4b1329e42dcf158b6c392a99b9a4e0a",
+            "fingerprint": "1b2b9ab2ed3d54dbdf4e4967e60d1b1dae82306e",
+            "host": "keybase.io",
+            "key_id": "e60d1b1dae82306e",
+            "kid": "0101eae8f39263d27274d30533c6f359a8c5ebacc5b3d5058ad90d85ebd74b6f175d0a",
+            "uid": "0e0d3a96b15ebb5dd8fc9da9313b2819",
+            "username": "sangamcse"
+        },
+        "service": {
+            "hostname": "sangamcse.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1490125245,
+    "expire_in": 157680000,
+    "prev": "06034645890d816599dddf1b565cc184f074db61e49632a2557c95124516f545",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.66
+Comment: https://keybase.io/crypto
+
+yMNwAnicbVJ7UFRVHN4VkiRRzMeQTAnXtMFYuOfee+5jmQanFENGAUVdxpzl3nvO
+LneE3WUfBAjIywhoeDTipGZgShEKBWExDg3xMJzAF2kj5lBoMI0QjBZESNa9mP80
+nX/OnO98v+983+93evy8dL76Ub/A55sKSJu+r7PGozNdy//qACHZUSZhPEDsx/Mb
+TkHY5TbvVxBhJEhAkVhAJM9YWAhJmpdpjhEAx3EWgYcyBAwl0pLESICmBMxQSLYA
+yEusTAuUKAiSIDKYFIlQwqLYrNjpcCo2tyoLJEq9kiiMaAQZJCELgxmB5TBLIiAB
+JGKeokkWq4XJdpdWoZqTRBcOU+wqph7M8/b+h//ENwmwilpUHyyNKI7iGESTkKZl
+1kJDQeRliCVRlqGkOiAhLyKBRLyKIY6RWAvgIJr37Xksh0lEiwIrAZUhQYR4iywg
+UaABLVE8EDSiCzttYipW2S7RZhVTZRcmckIJFU5XZKx1VovyX0qYVXEne6THuRxO
+u9su21NUQrLb7XAZNQF3pkOreBNL5n+1zJJiQ2o/1Yp07HQpdhthBCpTdiuaOGAE
+dWyQYmAogTMcihObFY0BOZYn1aW9g9O1VCxJMywDeS06YKEgIIQsQIIslGWgjpxU
+myaxQBsNTYkUhJwsQKAKA9YCGUho6dJsdsLIqzZFq5ZLsdpEt8epRu/qfMNbp/fV
+LXxqgfbPdL6L/J/8vr9q/XUF5b+D2qbqoOlJi2lJStJLkXJ/2fKDf3TsPPOg1HXh
+7pf6t0fqjwwIFetqAuwZjtP2hGMzPtt3jWXEJLTP5hOjzPVverJspj15kyfTY01p
+Ne1/77zzSXtQ6YZllxMjuEuRU+5bQRcqDMErTx1rC2ppfnmcYk/7T21qGKpMGvxs
+wzqw7duZ2qNFhqReryj7orSvPYWHfEa8r0ffTuUCbsaTuR9s3DTRdLWPXrZn/XT2
+vs29uZWNS4PjWvNvLDEkH314uGi6Z/nVkbktZ9cYRycLjA2L+c7iop+8t1Z1rxjK
+KsxuDz4x2Dt76NT9rh0fjb3QP+jH770fLsSdWN+a03otXtK/XyvNjJ3x0U2FJEzo
+vQy7yjwZldMv3jxfVW6Ni+9uXJy0asGjw1GZ49EleUdKVpb+GZb7ehiI7b/7XUm4
+4OXILhxO3HpWT7eczCmOM18JaT646uLey2D38Y8NgeVK3Y0wpaw+vGNF25a1GQM/
+FBVtH/85xFMT/Ez77ad7GtuHHqWMfb6xrrHifN4XAx3P+Qb4dz2b3nYvwuCTFZEY
+9UvzbM5cffW5CU8gfCXow19NlxpuvdqQOpx5PHZ1S3V+1Y/ssGl29PttKVEXmxwL
+Y95bPeKXavDed+8d85zpjtWIEv1DPh0VGvuqX/NbMzv8oDt4d2QMP/Hb+Lnype8G
+AGbtjrroXBB95WHxW9Q/JsLCog==
+=8usS
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sangamcse
+
+==================================================================
