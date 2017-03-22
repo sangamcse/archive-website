@@ -1,11 +1,9 @@
-/*** Top Line ***/
+/***** Top Line *****/
 html {
-    border-top-width: 4px;
+    border-top-width: 5px;
     border-top-style: solid;
     border-top-color: #1e1f1f;
 }
-
-
 .profile{
 	padding:10% 0;
 }
@@ -40,7 +38,7 @@ html {
 .profile .span3 img {
 	border-radius:50%;
 	border:5px solid #4c6767;
-  	width: 215px;
+  width: 215px;
 	height:230px;
 	box-shadow: 5px 5px 5px #cccccc;
 }
@@ -59,8 +57,16 @@ ul.social-icons li:first-child {
 	margin-left:0;
 }
 ul.social-icons li a {
-	opacity:0.8;
+	opacity:1;
 }
 ul.social-icons li a:hover {
 	opacity:1;
+}
+/***** Time *****/
+.date {
+  text-align: right;
+  color: #4c6767;
+  font-size:12px;
+  margin-right: 1%;
+  text-shadow: 1px 1px #cccccc;
 }
