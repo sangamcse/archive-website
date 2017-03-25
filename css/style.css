@@ -70,3 +70,9 @@ ul.social-icons li a:hover {
   margin-right: 1%;
   text-shadow: 1px 1px #cccccc;
 }
+
+/***** Link *****/
+a:link, a:visited {
+    color: rgba(55, 71, 79, 0.95);
+    text-decoration: underline;
+}
