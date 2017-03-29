@@ -16,10 +16,10 @@
 <div class="date">
   <p id="time"></p>
   <script>
-  var date = new Date();
-  date = date.toString();
-  date = date.replace(/\([A-Z]+\)$/,"");
-  document.getElementById("time").innerHTML = date;
+  var d = new Date();
+  d = d.toString();
+  d = d.replace(/\([A-Z]+\)$/,"");
+  document.getElementById("time").innerHTML = d;
   </script>
 </div>
 
