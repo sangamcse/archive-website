@@ -18,7 +18,8 @@ font-family: Montserrat, Arial, Helvetica, Tahoma, Verdana, sans-serif;
 width: 1500px;
 font-size: 16px;
 padding-top: 4.0625em;
-background: #fff;
+background-color: #ededed;
+background-image: url("https://www.transparenttextures.com/patterns/reticular-tissue.png");
 text-align: center;
 }
 #landing {
@@ -426,8 +427,6 @@ margin: 1.5em 0 1em;
   color: #fff;
   font-size: .6em;
   position: relative;
-  float: left;
-  margin-left: 14em;
   margin-top: 1em;
   margin-bottom: 1em;
   cursor: pointer;
@@ -435,7 +434,7 @@ margin: 1.5em 0 1em;
 
 #landing > .extra .button:hover {
   background: transparent;
-  color: #3e4e5c;
+  color: white;
 }
 
 #landing > .extra .cont_principal {
@@ -594,4 +593,43 @@ position: relative;
 }
 #landing .extra .cont_text_inputs > input:nth-child(4){
   transition-delay: 0.8s;
+}
+
+#landing .section-heading{
+  border-bottom:1px solid rgba(255,255,255,0.1)
+
+  margin:2em;
+  color: white;
+}
+#landing .speakers{
+    max-width:70em;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin:1em auto;
+    -webkit-box-align:start;
+    -webkit-align-items:flex-start;
+    -ms-flex-align:start;
+    align-items:flex-start;
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center
+}
+#landing .speakers .speaker{
+  text-align: center;
+  min-width:320px;
+  max-width:17em;
+  margin:0 1em;
+}
+#landing .speakers .speaker h4{
+  font-size:1.5em;
+}
+#landing .speakers .speaker p{
+  font-size:1em;
+  color: white;
 }
