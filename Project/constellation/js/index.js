@@ -37,7 +37,7 @@ document.body.appendChild(stats.domElement);
 					randomWidth: true
 				},
 				line: {
-					color: 'rgba(255, 255, 255, .5)',
+					color: 'rgba(255, 255, 255, .6)',
 					width: 0.2
 				},
 				position: {
@@ -204,7 +204,7 @@ $('canvas').constellation({
 		width: 3
 	},
 	line: {
-		color: 'rgba(255, 0, 0, .5)'
+		color: 'rgba(255, 250, 0, .5)'
 	},
 	radius: 250
 });
