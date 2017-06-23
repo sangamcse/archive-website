@@ -1,0 +1,45 @@
+ body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+ }
+
+ 
+#coverBlack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1.0;
+ background: #000000; 
+}
+.mdl-layout{
+    width:100%;
+    height:100%;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    overflow-y:auto;
+    overflow-x:hidden;
+    position:relative;
+    -webkit-overflow-scrolling:touch
+}
+.mdl-layout--fixed-drawer>.mdl-layout__drawer{
+  -webkit-transform:translateX(0);
+  transform:translateX(0)
+}
+.mdl-layout__header .mdl-layout__drawer-button{
+    position:absolute;
+    color:#fff opacity: 0.1;
+    background-color:inherit
+}
+.mdl-layout--fixed-header>.mdl-layout__header{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex
+}
