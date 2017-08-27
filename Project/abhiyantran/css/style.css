@@ -106,3 +106,89 @@ body {
     transform: rotate(360deg);
   }
 }
+
+/*** LOGO Abhiyatran ***/
+
+    .linepathArc{
+      fill: #fff;
+      stroke: #0084c6;
+      stroke-dasharray: 1600;
+      stroke-width: 2;
+      animation: my_animation 3s infinite;
+    }
+
+    @keyframes my_animation{
+      0%{
+        stroke-dashoffset: 0;
+      }
+      40%{
+        stroke-dashoffset: 1600;
+      }
+      50%{
+        stroke-dashoffset: 1600;
+      }
+      100%{
+        stroke-dashoffset: 0;
+      }
+    }
+    .linepath{
+      fill: #fff;
+      stroke: #0084c6;
+      stroke-dasharray: 470;
+      stroke-width: 2;
+      animation: my_animate 3s infinite;
+    }
+
+    @keyframes my_animate{
+      0%{
+        stroke-dashoffset: 0;
+      }
+      50%{
+        stroke-dashoffset: 470;
+      }
+      100%{
+        stroke-dashoffset: 0;
+      }
+    }
+    .glowing1{
+      fill:url(#SVGID_1_);
+      animation: fillcolorID 3s infinite;
+    }
+    .glowing2{
+      fill:url(#SVGID_2_);
+      animation: fillcolor 3s infinite;
+    }
+    
+
+    @keyframes fillcolorID{
+      0%{
+        
+      }
+      35%{
+        fill:url(#SVGID_1_);
+        opacity: 0;
+      }
+      65%{
+        fill:url(#SVGID_1_);
+        opacity: 0;
+      }
+      100%{
+        
+      }
+    }
+    @keyframes fillcolor{
+      0%{
+        
+      }
+      35%{
+        fill:url(#SVGID_2_);
+        opacity: 0;
+      }
+      65%{
+        fill:url(#SVGID_2_);
+        opacity: 0;
+      }
+      100%{
+        
+      }
+    }
