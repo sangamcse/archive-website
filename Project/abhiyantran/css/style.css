@@ -1,0 +1,108 @@
+/* DEMO STYLES ============= */
+body {
+  margin: 0;
+  background: linear-gradient(135deg, rgba(0,160,207,1) 0%, rgba(0,160,207,1) 27%, rgba(31,200,167,1) 100%);
+}
+.kibanaLoader {
+  position: relative;
+  top: -6em;
+}
+
+/* KIBANA OVERRIDES ============= */
+.kibanaWelcomeView {  
+  background-size: cover;
+  background-repeat:no-repeat;
+  min-height: -webkit-fill-available;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: transparent;
+}
+
+/* LOGO ============= */
+.kibanaLoader__logo {
+  width: 200px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 13em;
+  left: .5em;
+  z-index: 1;
+}
+
+/* LOADER/SPINNER ============= */
+.kibanaLoader__content{
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  background: #000000;
+  background: linear-gradient(to right, #009bc6 10%, rgba(0, 0, 0, 0.2) 42%);
+  position: relative;
+  animation: loader 1.4s infinite linear;
+  transform: translateZ(0);
+}
+.kibanaLoader__content:before {
+  width: 50%;
+  height: 50%;
+  background: linear-gradient(90deg, #009bc6 0%, #00f2ca 25%, #00f0cb 100%);
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.kibanaLoader__content:after {
+  background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgba(195,206,213,1) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c3ced5', GradientType=1 );
+  width: 92%;
+  height: 92%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
