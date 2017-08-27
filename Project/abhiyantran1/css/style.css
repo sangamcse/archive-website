@@ -1,0 +1,196 @@
+/* DEMO STYLES ============= */
+body {
+  margin: 0;
+  background: linear-gradient(135deg, rgba(0,160,207,1) 0%, rgba(0,160,207,1) 27%, rgba(31,200,167,1) 100%);
+}
+.kibanaLoader {
+  position: relative;
+  top: -6em;
+}
+
+/* KIBANA OVERRIDES ============= */
+.kibanaWelcomeView {  
+  background-size: cover;
+  background-repeat:no-repeat;
+  min-height: -webkit-fill-available;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: transparent;
+}
+
+/* LOGO ============= */
+.kibanaLoader__logo {
+  width: 200px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 13em;
+  left: .5em;
+  z-index: 1;
+}
+
+/* LOADER/SPINNER ============= */
+.kibanaLoader__content{
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  background: transparent;
+  fill:transparent;
+  background: linear-gradient(to right, #009bc6 10%, rgba(0, 0, 0, 0.2) 42%);
+  box-shadow: 0px 0px 0px 1000px rgba(255, 255, 255, 0.15), 0px 0px 19px 0px rgba(0, 0, 0, 0.16) inset;
+  position: relative;
+  animation: loader 1.2s infinite linear;
+  transform: translateZ(0);
+}
+.kibanaLoader__content:before {
+  width: 50%;
+  height: 50%;
+  background: transparent;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.kibanaLoader__content:after {
+  background: radial-gradient(ellipse at center, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 30%, rgba(195,206,213,.7) 80%, rgba(195,206,213,1) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c3ced5', GradientType=3 );
+  width: 92%;
+  height: 92%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*** LOGO Abhiyatran ***/
+
+    .linepathArc{
+      fill: transparent;
+      stroke: #0084c6;
+      stroke-dasharray: 1600;
+      stroke-width: 4;
+      animation: my_animation 3s infinite;
+    }
+
+    @keyframes my_animation{
+      0%{
+        stroke-dashoffset: 0;
+      }
+      40%{
+        stroke-dashoffset: 1600;
+      }
+      50%{
+        stroke-dashoffset: 1600;
+      }
+      100%{
+        stroke-dashoffset: 0;
+      }
+    }
+    .linepath{
+      fill: transparent;
+      stroke: #0084c6;
+      stroke-dasharray: 470;
+      stroke-width: 4;
+      animation: my_animate 3s infinite;
+    }
+
+    @keyframes my_animate{
+      0%{
+        stroke-dashoffset: 0;
+      }
+      50%{
+        stroke-dashoffset: 470;
+      }
+      100%{
+        stroke-dashoffset: 0;
+      }
+    }
+    .glowing1{
+      fill:url(#SVGID_1_);
+      animation: fillcolorID 3s infinite;
+    }
+    .glowing2{
+      fill:url(#SVGID_2_);
+      animation: fillcolor 3s infinite;
+    }
+    
+
+    @keyframes fillcolorID{
+      0%{
+        
+      }
+      35%{
+        fill:url(#SVGID_1_);
+        opacity: 0;
+      }
+      65%{
+        fill:url(#SVGID_1_);
+        opacity: 0;
+      }
+      100%{
+        
+      }
+    }
+    @keyframes fillcolor{
+      0%{
+        
+      }
+      35%{
+        fill:url(#SVGID_2_);
+        opacity: 0;
+      }
+      65%{
+        fill:url(#SVGID_2_);
+        opacity: 0;
+      }
+      100%{
+        
+      }
+    }
