@@ -11,12 +11,22 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/styleLoader.css">
 
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script>
+	//paste this code under head tag or in a seperate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".kibanaWelcomeView").slideUp();
+		$( "content" ).show( "slow" );
+	});
+	</script>
 	
 </head>
 <body>
-  <div class="kibanaWelcomeView">
-  <h1>Abhiyantran'17</h1>
-  <h2>A tribute to Indian Army</h2>
+    <div class="kibanaWelcomeView">
+    <h1>Abhiyantran'17</h1>
+    <h2>A tribute to Indian Army</h2>
 	  <div class="kibanaLoader">
 	    <div class="kibanaLoader__logo">
 
@@ -99,5 +109,15 @@
 	    <div class="kibanaLoader__content"></div>
 	  </div>
 	</div>
+	<div class="content">
+	<img src="http://smallenvelop.com/wp-content/uploads/2014/08/simple-pre-loader.jpg" style="visibility: hidden; width:100%; height: auto;">
+	</div>
+	<style>
+		.content {
+			background: url(http://smallenvelop.com/wp-content/uploads/2014/08/simple-pre-loader.jpg) center no-repeat;
+			background-size: 100%;
+			width: 100%;
+		}
+	</style>
 </body>
 </html>
