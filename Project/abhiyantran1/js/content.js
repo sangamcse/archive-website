@@ -45,6 +45,8 @@ function clock(){
     '</ul>';
 }
 
+
+
 // menu 
 function menu(e){
   // left = 20px
@@ -61,3 +63,15 @@ function menu(e){
 }
 // get function on mouse move
 document.onmousemove = menu; 
+
+
+//toggle
+$(".toggle-icon").click(function(e) {
+  $('#nav-container').toggleClass("");
+  b.classList.add('show');
+  d.classList.add('showClock');
+  clock();
+});
+
+
+/*** starwars.com's Toggle Icon Animation ***/
