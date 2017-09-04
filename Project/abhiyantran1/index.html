@@ -17,7 +17,7 @@
 	// Wait for window load
 	$(window).load(function() {
 		// Animate loader off screen
-		$(".kibanaWelcomeView").delay(1000).slideUp("slow", function(){
+		$(".kibanaWelcomeView").delay(1000).fadeOut("slow", function(){
 			$( "content" ).show( "slow" );
 		});
 		
