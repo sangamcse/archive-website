@@ -19,7 +19,7 @@
 
 .toggle-icon .bar {
 	display: block;
-	width: 2.8em;
+	width: 3.8em;
 	height: 0.2em;
 	margin: 0.9em;
 	border-right: 2.8em solid #fff;
@@ -34,16 +34,11 @@
 	-moz-transition-duration: 600ms;
 	transition-duration: 600ms;
 }
-	.toggle-icon .bar:nth-of-type(1) {
-		-webkit-transition: opacity 300ms;
-		-moz-transition: opacity 300ms;
-		transition: opacity 300ms;
-	}
-	.toggle-icon .bar:nth-of-type(2) {
-		-webkit-transform: rotate(-180deg);
-		-moz-transform: rotate(-180deg);
-		-ms-transform: rotate(-180deg);
-		-o-transform: rotate(-180deg);
-		transform: rotate(-180deg);
-	}
+.toggle-icon .bar:nth-of-type(2) {
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
 
