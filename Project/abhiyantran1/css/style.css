@@ -1,7 +1,9 @@
 /* DEMO STYLES ============= */
 body {
   margin: 0;
-  background: linear-gradient(135deg, rgba(0,160,207,1) 0%, rgba(0,160,207,1) 27%, rgba(31,200,167,1) 100%);
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .kibanaLoader {
   position: relative;
