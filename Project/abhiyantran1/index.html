@@ -17,8 +17,10 @@
 	// Wait for window load
 	$(window).load(function() {
 		// Animate loader off screen
-		$(".kibanaWelcomeView").slideUp();
-		$( "content" ).show( "slow" );
+		$(".kibanaWelcomeView").slideUp("slow", function(){
+			$( "content" ).show( "slow" );
+		});
+		
 	});
 	</script>
 	
