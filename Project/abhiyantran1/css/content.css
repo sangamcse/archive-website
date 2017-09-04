@@ -22,13 +22,17 @@ html,body, .content{
   bottom:0;
   margin:auto;
   width:20em;
-  height:9em;
+  height: auto;
   padding:1em 0.5em;
   font-size: 1em;
   font-family: sans-serif;
   text-align:center;
   background: #8F00FF;
   color:#1ABC9C;
+}
+.info > img {
+   width:18em;
+   height: auto;
 }
 .info > h1 {
   margin:0;
