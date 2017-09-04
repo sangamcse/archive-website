@@ -34,6 +34,7 @@
 	-moz-transition-duration: 600ms;
 	transition-duration: 600ms;
 }
+
 .toggle-icon .bar:nth-of-type(2) {
 	-webkit-transform: rotate(-180deg);
 	-moz-transform: rotate(-180deg);
@@ -41,4 +42,3 @@
 	-o-transform: rotate(-180deg);
 	transform: rotate(-180deg);
 }
-

@@ -1,5 +1,6 @@
 var b = document.querySelector('.box'),
     d = document.querySelector('.date');
+
 // clock and date
 function clock(){
   var cT = new Date(),
@@ -43,6 +44,9 @@ function clock(){
       '<li>'+cD+' of '+month+'</li>'+
     '</ul>';
 }
+
+
+
 // menu 
 function menu(e){
   // left = 20px
@@ -59,6 +63,7 @@ function menu(e){
 }
 // get function on mouse move
 document.onmousemove = menu; 
+
 
 //toggle
 $(".toggle-icon").click(function(e) {
