@@ -108,7 +108,7 @@ html,body, .content{
 }
 .date {
   position: fixed;
-  bottom: 3em;
+  bottom: 1em;
   right: 0.1em;
   z-index: 0;
   min-width:22em; 
