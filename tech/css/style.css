@@ -586,8 +586,7 @@ position: relative;
 }
 
 #landing .section-heading{
-  border-bottom:1px solid rgba(255,255,255,0.1)
-
+  border-bottom:1px solid rgba(255,255,255,0.1);
   margin:2em;
   color: white;
 }
