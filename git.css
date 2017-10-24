@@ -117,8 +117,6 @@ Global Ignore /* create in home folder  */
 .Trashes
 .Spotlight_V100
 
-
-
 git config --global core.excludesfile ~/.gitignore_global /* add to gitconfig */
 
 /* Stop tracking changes */
