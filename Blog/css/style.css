@@ -1,0 +1,39 @@
+@font-face {
+font-family: Heading;
+src: url(font/heading.otf);
+}
+
+body{
+	background-color: #000000;
+	background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
+}
+h1,h2,h3,h4{
+	font-family: Heading;
+	color: blue;
+}
+h1{
+	font-size: 3em;
+}
+p{
+	text-align: justify;
+	font-size: 20px;
+    line-height: 25px;
+}
+img {
+    pointer-events: none;
+}
+.logo{
+	height: 10em;
+	display: block;
+    margin: 0 auto;
+}
+.inside{
+	background-color: #ffffff;
+	margin-top: 1em;
+	margin-bottom: 24px;
+}
+.insidefooter{
+	background-color: blue;
+	color: white;
+	font-size: 18px;
+}

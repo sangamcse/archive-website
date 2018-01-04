@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>End-term Report, KWoC | Sangam</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header id="header" class="">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-10 inside">
+					<div class="center-block">
+						<img src="http://kwoc.kossiitkgp.in/static/images/kwoc_logo.png" alt="" class="logo img-responsive">
+						<h1 class="text-center"><ins>KWoC-Kharagpur Winter of Code</ins></h1>
+						<hr>
+						<br>
+						<div class="container">
+					        <div class="row">
+						        <div class="col-lg-1"></div>
+						        <div class="col-lg-10">
+						          	<h2 class="text-center"><ins>End-term Report</ins></h2><hr>
+						          	<a href="#intro"><h3 id="intro"><u>Introduction</u></h3></a>
+						            <p>&emsp;&emsp;Kharagpur Winter of Code is a 5-week long online programme for the students of various colleges, who are new to open source software development. The programme helps students to get involved in open source and prepares them for many open source summer programmes like Google Summer of Code.</p>
+
+						            <p>Hi, Myself <a href="sangamcse.me" target="_blank">Sangam Kumar</a>. My github id is <a href="https://github.com/sangamcse" target="_blank">sangamcse</a>. I came to know about the programme in an Open Source Workshop during Abhiyantran, NIT Sikkim 2017. I registered for it on 20<sup>th</sup> Nov 2017 and started choosing a project. My semester exam ended on 22<sup>nd</sup> Nov 2017 so I was free to start coding.</p>
+						            <hr>
+						            <h3><u>Choosing a Project</u></h3>
+
+						            <p>After registration, next step was to find a suitable project from the <a href="http://kwoc.kossiitkgp.in/projects">listed projects</a>.</p>
+
+						            <p>I found <a href="https://github.com/coala/">Coala</a> very interesting for me. It provides a unified interface for linting and fixing code with a single configuration file, regardless of the programming languages used. I joined the gitter communication channel of coala and read the newcomer guidelines. My mentor for this project is <a href="https://github.com/yash-nisar" target="_blank">Yash Nisar</a>. I contacted him personally via <a href="https://www.facebook.com/yash.nisar/">facebook</a>. He guided me to take all the steps to start. I started contributing after all the steps done.</p>
+
+						            <hr>
+						            <h3><u>Commiting on Github</u></h3>
+						            <hr>
+						            <div>
+							            <h4 id="firstpr"><a href="#firstpr"><i><u>My First PR</u></i></a></h4>
+							            <p>To start contribution on Coala, there were some rules to follow. It was all given in the newcomer guidelines. Next step was to find a <a href="https://github.com/coala/coala-bears/issues?q=is%3Aopen+is%3Aissue+label%3Adifficulty%2Fnewcomer">difficulty/newcomer issue</a>. I chose a <a href="https://github.com/coala/coala-bears/issues/2004">issue</a> which was opened by my mentor. The issue was very easy for me. I solved the issue and sent <a href="https://github.com/coala/coala-bears/pull/2148" target="_blank">the PR</a>. But let me tell you that getting merged the PR was not so easy.</p>
+							            <img class="img-responsive col-md-12" src="img/1.png" alt="">
+							            <span class="col-sm-12 text-center text-muted">First changes for the issue</span>
+
+							            <p>Changes required in the issue was not this much. So <a href="https://github.com/yash-nisar" title="Yash Nisar" target="_blank">@yash-nisar</a> told me to make some more changes in another file.</p>
+							            <img class="img-responsive col-md-12" src="img/2.png" alt="">
+							            <span class="col-sm-12 text-center text-muted">Second changes for the issue</span>
+
+							            <p><br>So my final change looks like this. And there were some more issue in the PR. There was a failing test case on circleCI but it was something related to inability to fetch some dependency. The gitmate-bot was checking the commit and my commit was not proper, so <a href="https://github.com/yash-nisar" title="Yash Nisar" target="_blank">@yash-nisar</a> helped me in that.</p>
+							            <img class="img-responsive col-md-12" src="img/3.png" alt="">
+							            <span class="col-sm-12 text-center text-muted">Suggestion by mentor</span>
+							            <br>
+							            <p>I made some changes in my commit which is now looks like below.</p>
+							            <img class="img-responsive col-md-12" src="img/4.png" alt="">
+							            <span class="col-sm-12 text-center text-muted">Changes in commit as suggested</span>
+							            <p>And it passed all test cases for my first PR. It was ready to merge but maintainer was taking some time to merge it. So the mentor suggested to rebase my branch.</p>
+							            <img class="img-responsive col-md-12" src="img/5.png" alt="">
+							            <span class="col-sm-12 text-center text-muted">Suggestion by mentor</span>
+							            <p>On 24<sup>th</sup> Dec, finally my first PR got merged into the master branch of coala/coala-bear.</p>
+							            <div class="col-md-12">
+							            	<img class="img-responsive" src="img/6.png" alt="">
+							            	<span class="col-md-12 text-center text-muted">Merged PR</span>
+							            	<hr>
+							            </div>
+						        	</div>
+						            <div>
+						            	<h4 id="secondpr"><i><u><a href="#secondpr">My Second PR</a></u></i></h4>
+						            	<p>Before choosing my second issue, I reviewed 2/3 difficulty/newcomer PRs. I was continuous active on gitter channel of coala. Then I searched for a <a href="https://github.com/coala/coala-bears/issues?q=is%3Aopen+is%3Aissue+label%3Adifficulty%2Flow" target="_blank">difficulty/low issue</a>.</p>
+						            	<p>However I chose a needs-design <a href="https://github.com/coala/landing-frontend/issues/250" target="_blank">issue</a>. This issue requires changes in <a href="https://coala.io/#/languages">coala.io/#/languages</a> page where in place of programming language's name, there should be programming language's logo.</p>
+
+						            	<p>I have sent a <a href="https://github.com/coala/coalaCSS/pull/29" target="_blank">PR</a> which is some changes in css.</p>
+						            	<div class="col-md-12">
+							            	<img class="img-responsive" src="img/7.png" alt="">
+							            	<span class="col-md-12 text-center text-muted">Changes in Second PR</span>
+							            </div>
+							            <p>This PR still needs approval. I am working on a script to fetch the logo from wikidata and add that logo to the issue. <a href="https://github.com/jayvdb" target="_blank">@jayvdb</a>, who is one of the owners of coala, is helping me in that script. That script needs <a href="https://pywikidata.readthedocs.io/en/latest/chapter2.html#fetching-items">pywikidata api</a>.</p>
+						            </div>
+						            <hr>
+						            <h3><u>Post KWoC</u></h3>
+						            <p>KWoC is ending now but since it’s an open source project, I could contribute to it anytime. I’ve planned to fix the issues in coala issue's list.</p>
+
+						        </div>
+						        <div class="col-lg-1"></div>
+					        </div>
+					    </div>
+					</div>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+		</div>
+	</header><!-- /header -->
+	<footer id="footer" class="footer navbar-fixed-bottom">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-10 insidefooter text-center">hi<i class="fa fa-heart" aria-hidden="true"></i><i class="fa fa-coffee" aria-hidden="true"></i></div>
+		<div class="col-lg-1"></div>
+	</footer>
+</body>
+</html>
