@@ -244,7 +244,7 @@ a {
         max-width: 100%;
         height: auto;
         margin: 0 auto;
-        border: 1px solid $font-color;
+        /*border: 1px solid $font-color;*/
     }
     /* Added in { Personal } */
     ul,
@@ -254,6 +254,10 @@ a {
         font-size: 18px;
         line-height: 1.5;
         list-style-position: inside;
+    }
+    .post {
+        background-color: $post-color;
+        color: black;
     }
     pre {
       padding: 0;
