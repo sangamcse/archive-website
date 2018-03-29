@@ -1,0 +1,89 @@
+==================================================================
+https://keybase.io/sangamcse
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://meetsangamcse.me
+  * I am sangamcse (https://keybase.io/sangamcse) on keybase.
+  * I have a public key with fingerprint 1B2B 9AB2 ED3D 54DB DF4E  4967 E60D 1B1D AE82 306E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e9d084f655038c37491777f985c5142a3bb4b1329e42dcf158b6c392a99b9a4e0a",
+      "fingerprint": "1b2b9ab2ed3d54dbdf4e4967e60d1b1dae82306e",
+      "host": "keybase.io",
+      "key_id": "e60d1b1dae82306e",
+      "kid": "0101eae8f39263d27274d30533c6f359a8c5ebacc5b3d5058ad90d85ebd74b6f175d0a",
+      "uid": "0e0d3a96b15ebb5dd8fc9da9313b2819",
+      "username": "sangamcse"
+    },
+    "merkle_root": {
+      "ctime": 1522337874,
+      "hash_meta": "a22718b2acbf8a0594df840cb19e25355dc7a6d506bf0d8de7b929fd0d9f0fb3",
+      "seqno": 2307158
+    },
+    "revoke": {
+      "sig_ids": [
+        "3cc6943c0e10775f2fcf1b3a095412259a6a2146dd35c01db50c23b1f8f9ac080f"
+      ]
+    },
+    "service": {
+      "hostname": "meetsangamcse.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1522337877,
+  "expire_in": 157680000,
+  "prev": "ac4cb11ea878e2aa92716e99c51002f93d0e6ecb035a5df35b34f304e59ba828",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMP/AnicbZN/bBRFFMevYA0thYLRXKRUdAUp9oDZmf01B40nVUArQoRGfnrM7Mxe
+j+vd1dtrS0sb0BpjgPJboJRfCkSxll8WtAG8gAQkVRQ1JRC0WFGRllDQpgIWna1g
+jHH/2eyb73vvu5/35li/3q7UpJ/6ZWTuehVEkpqOlhe7Zh7uk79AolFWJnkXSCHe
+8+KFjNtxfyjIJK8EZAg4ZsBQLE1VATJMpCtY1nXdwoZqqrICCaJUoTKCmCuQmZas
+GlQzEYYEY4qJwgGRPJIVjAR4rCgWjMRFWZlCcUQhZ4ipCqPMUriCNZ1rgMlUZoQb
+EAGNi8SCqO1kCHOU2HxUMCpi4sPfY+9/9Hd9A5mLqCV8aIhBHeoKQ0BFyNQspGJi
+mCqnxDRVKhwA1SAMA2aIGNMVqlmyrrIe38V/l+OAIYI1KgsFVRkzLBMzgpGMKDRk
+7AhtHouQMBdqm0QCJGzaXKr0SGEeCxVyfywajTt0zXjQ0cgqhAjphq6IPyR2gT/M
+40SkEgh12aCQmNQyCFCxwixDASaVMYcqUlVm6kQTjjVqCb+M6xRDbDHAsAUsioQR
+m78ciUpewUMXoxAOYrwkGuJOczsYENxsyTtLQqapYQWZgMtA11ULWmJyFBGAVUWG
+UBDSCJQVjTGkmkBmVAUmRFS2DAsTExjAkuZUOs1iJUGzp7gzqDsAwpzH/4EwKuyM
+pSgWjUfNaKE4LYjHi7wOmnhZkaMu5dR/p46fBiNMbIpIKOExOxiNCFRC+V9qukfi
+84uCMe4POgpV1wwgHqcNL3EwmopAJjbA0A0OCcGCqsYxFgsLALQwYoBr3KQAqURl
+YiEoUiwEFK5iSgxo/Buj8EkCzlSDgQiJF8fEVI8emX2PKynVdW9yL+cKuVJTBty9
+WNsOpf8ZXWV35ZmurfOqUw4+8cEMfdiPLxUPcr2xMK+9bXvx+ttZX55+vnCOeskH
+53evcS1Le6uve+DO9WfWjp7tH5a+875r4c6l5shEFl9Sl3tmHV3g63yuoKa2cNYf
+s8aW2p2buur7TKgvreta2VG+290Km65+6xu8aFtZeXb5xNr9/fM6SvKaB4djvkpe
+3Xr9md6PVq0sajxf23lgQ9OiDS/UlVu/8rTa8Y9Hp40/NzQyYpMvcaNizPrEusTm
+K180to7r2p5TU/FI5qLLE7Y0rNZRh0/vjgwpu1JT2JZ2M9u9a2Du6+nuzu2/XfQ/
+uzE/adqJHdeWu88H61lxqCXU8on02jcTA5/e35B/pLnixEcPDFCGhM8dGJ4zvGz3
+Z20pqGn6e/WLLzxtX1rZe2tq330fz2wd+X7LZP2phofHZh7NSr+xorWipnabWwoh
+OrVu9cYVGYNuV87w753/3dm1HYEb42K+yaPKHus1fPNcb+KVD9tK3z7e8dVDKYn9
+h85UV98MXphx+sWpO4+9+X12In9y7oP7qs4mN7uXZaUumX5SP5X8eaV1i425NaU9
+raCle7Q3e13m4Zwj9e0n3x0aL92SUwWuTppSL9sZlwt7ndi7x96UuaZxXEZz+6TV
+16de+rnx6+Rfdiz0zB3pn3fxmKf5ula6PGNPQffSmU82nEIpufCdrXMy+q+q9Yzw
+HE/8/kNNpGrtvhEH/wL55gLg
+=Ni2y
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sangamcse
+
+==================================================================
+
