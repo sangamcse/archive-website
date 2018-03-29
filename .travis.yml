@@ -1,10 +1,14 @@
+cache:
+  directories:
+  - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
+
 language: ruby
 
 rvm:
 - 2.5
 
 install: gem install jekyll jekyll-paginate jemoji html-proofer
-script: jekyll serve --baseurl "" --detach && htmlproofer ./_site --disable-external --empty-alt-ignore
+script: jekyll serve --baseurl "" --detach && htmlproofer ./_site --disable-external --allow_hash_href --empty-alt-ignore
 
 env:
   global:
