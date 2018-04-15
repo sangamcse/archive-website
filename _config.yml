@@ -41,7 +41,7 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/budhhapark.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -58,7 +58,7 @@ lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
+# me-img: "/img/jetpacktocat.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -71,7 +71,7 @@ me-img: "/img/jetpacktocat.png"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
 
-# me-img: "https://github.com/user_name.png?size=500"
+me-img: "https://github.com/sangamcse.png?size=500"
 
 # To use gravatar profile pic uncomment the following line and replace 'email_hash'
 # with your gravatar profile email hash.
@@ -115,12 +115,7 @@ email-share: True
 fb-share: True
 twitter-share: True
 linkedin-share: True
-reddit-share: True
 google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
 
 disqus-shortname: "meetsangamcse"
 
@@ -165,13 +160,13 @@ author_blurb_image: "/img/author.png"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
+    url: "https://facebook.com/cashewsangam"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/meetsangamcse"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/sangamcse"
+  - title: "instagram"
+    url: "https://instagram.com/meetsangamcse"
   - title: "rss"
     url: "/feed.xml"
 
@@ -214,6 +209,6 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
   - jemoji
