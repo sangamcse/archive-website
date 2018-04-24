@@ -1,4 +1,3 @@
-
 # Site settings
 
 # NB! Set your site's url, otherwise stuff will break :)
@@ -32,14 +31,14 @@ lang: "en"
 author: "Sangam Kumar"
 title: "{ Sangam Kumar }"
 description: "Blog and website of Sangam Kumar, blogging mainly for tech. Opinions expressed are mine."
-keywords: "sangam, kumar, personal, jekyll, theme, nit, coala"
-favicon: "/img/favicon.ico"
+keywords: "sangam, kumar, personal, jekyll, theme, nit, coala, nitsikkim"
+favicon: "https://assets-cdn.github.com/favicon.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+# black-favicon: "https://assets-cdn.github.com/favicon.ico"
 
 background-img: "../img/budhhapark.jpg"
 
