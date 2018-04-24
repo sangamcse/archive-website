@@ -38,7 +38,7 @@ favicon: "https://assets-cdn.github.com/favicon.ico"
 # Header layout #
 ################
 
-# black-favicon: "https://assets-cdn.github.com/favicon.ico"
+#black-favicon: "/img/black-lab-glass.ico"
 
 background-img: "../img/budhhapark.jpg"
 
@@ -54,8 +54,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
+  - text: "Believe you can and you’re halfway there."
   - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Start where you are. Use what you have. Do what you can."
+  - text: "Push yourself, because no one else is going to do it for you."
 
 # me-img: "/img/jetpacktocat.png"
 
@@ -119,22 +121,6 @@ google-plus-share: True
 disqus-shortname: "meetsangamcse"
 
 syntax-highlight: True
-
-############
-# Timeline #
-############
-
-events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "March 2018 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2015 - March 2018"
-    description: "Started coding"
-
-# First image of the Timeline
-
-timeline-img: "/img/timeline/default.png"
 
 ###########
 # Contact #
